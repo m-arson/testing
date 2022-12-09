@@ -1,4 +1,22 @@
+
+
 #include <stdio.h>
+
+/*
+* --------------------
+* For regular convert
+*---------------------
+int to_int(char x) {
+  return (int) x;
+}
+
+char to_char(int x) {
+  return (char) x;
+}
+
+*/
+
+// For the same number
 
 int to_int(char x) {
   return (int) x - '0';
