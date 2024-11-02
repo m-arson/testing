@@ -1,0 +1,7 @@
+# Testing compile in GCC
+  gcc -fsanitize=address -g -o outName srcName.c
+  ./outName
+
+# Using valgrind
+  gcc -o outName srcName.c
+  valgrind --leak-check=full ./outName
